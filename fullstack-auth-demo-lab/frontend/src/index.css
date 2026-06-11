@@ -1,0 +1,122 @@
+/* Minimal styling -- just enough that the demo is pleasant to look at
+   without distracting from the actual lesson. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background: #111827;
+  color: #fff;
+}
+
+.brand {
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.nav-user {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.container {
+  max-width: 640px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.error {
+  background: #fef2f2;
+  color: #b91c1c;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
